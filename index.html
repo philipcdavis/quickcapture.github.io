@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div>
+      <div class="flex container block block-header mt3 align-center">
+        <div class="col text-center mx-auto">
+          <svg
+            class="logo"
+            width="147"
+            height="147"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <defs>
+              <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="a">
+                <stop stop-color="#FFF" offset="0%" />
+                <stop stop-color="#FFEFEF" offset="100%" />
+              </linearGradient>
+              <filter filterUnits="objectBoundingBox" id="b">
+                <feOffset dy="5" in="SourceAlpha" result="shadowOffsetOuter1" />
+                <feGaussianBlur
+                  stdDeviation="3.5"
+                  in="shadowOffsetOuter1"
+                  result="shadowBlurOuter1"
+                />
+                <feColorMatrix
+                  values="0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0.291193182 0"
+                  in="shadowBlurOuter1"
+                />
+              </filter>
+            </defs>
+            <g fill="none" fill-rule="evenodd">
+              <rect fill="url(#a)" width="147" height="147" rx="32.667" />
+              <g class="logo-ray-container">
+                <circle
+                  fill="#FF4910"
+                  opacity="0"
+                  class="logo-ray logo-ray-1"
+                  r="50"
+                />
+                <circle
+                  fill="#FF4910"
+                  opacity="0"
+                  class="logo-ray logo-ray-2"
+                  r="50"
+                />
+                <circle
+                  fill="#FF4910"
+                  opacity="0"
+                  class="logo-ray logo-ray-3"
+                  r="50"
+                />
+                <circle fill="#FF4910" opacity="1" class="logo-ray" r="41" />
+              </g>
+              <g opacity=".93">
+                <path
+                  transform="translate(8, 8)"
+                  fill="#370909"
+                  d="M78.971 37.16 44.56 63.79a3.267 3.267 0 0 0 1.999 5.85h15.43L49.864 90.726a1.633 1.633 0 0 0 2.423 2.1l37.26-29.18a3.267 3.267 0 0 0-2.015-5.839H70.535l10.846-18.53a1.633 1.633 0 0 0-2.41-2.117Z"
+                />
+              </g>
+            </g>
+          </svg>
+          <h1 class="mt3 mb0">Quick Capture</h1>
+          <h3 class="text-tertiary mt1">Frictionless note taking on iOS</h3>
+          <div class="mt3">
+            <a class="btn btn-lg btn-secondary" href="#">Share</a>
+            <a class="btn btn-lg btn-primary" href="#">Get App</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="flex align-center device-container mx-auto">
+            <div class="relative">
+              <video autoplay muted loop>
+                <source src="./media/walkthrough.mp4" type="video/mp4" />
+              </video>
+              <img class="bezel" src="media/bezel.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container text-center mt4">
+        <h2>Three Input Modes</h2>
+        <h3 class="text-tertiary">Type, Record, or use your Camera</h3>
+        <img src="./media/tab-bar.png" />
+      </div>
+      <div class="flex container-sm mt4">
+        <div class="col block block-dictation">
+          <svg
+            width="44px"
+            viewBox="0 0 110 102"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <g
+              id="marketing"
+              stroke="none"
+              stroke-width="1"
+              fill="none"
+              fill-rule="evenodd"
+            >
+              <g
+                id="iPhone-13-Pro-Copy-6"
+                transform="translate(-566.000000, -121.000000)"
+                fill="var(--dictationForeground)"
+                fill-rule="nonzero"
+              >
+                <g id="wave" transform="translate(566.808350, 121.020691)">
+                  <path
+                    d="M3.69799805,58.8826294 L16.4812012,58.8826294 C18.0791016,58.8826294 19.4487305,58.1521606 19.9509277,56.7368774 L20.7727051,54.1345825 L26.1142578,79.4727173 C26.8447266,82.9424438 32.1862793,82.9424438 32.6884766,79.4727173 L37.1625977,49.6604614 L42.7780762,98.6018677 C43.2346191,102.619446 49.0327148,102.573792 49.3979492,98.6018677 L54.3742676,42.0361938 L59.3505859,98.5562134 C59.670166,102.619446 65.4682617,102.619446 65.970459,98.5562134 L71.5402832,49.6604614 L76.0600586,79.4727173 C76.5622559,82.9424438 81.8581543,82.9424438 82.588623,79.4727173 L88.0214844,53.906311 L88.7062988,56.2346802 C89.4367676,58.0608521 90.8520508,58.8826294 92.5869141,58.8826294 L104.730957,58.8826294 C106.739746,58.8826294 108.383301,57.2390747 108.383301,55.2759399 C108.383301,53.2214966 106.739746,51.5779419 104.730957,51.5779419 L94.276123,51.5779419 L90.8977051,38.3838501 C89.9846191,34.8228149 85.1452637,34.8228149 84.4147949,38.3838501 L79.8493652,60.0696411 L74.3251953,23.5918579 C73.7316895,19.6199341 68.1618652,19.7112427 67.7509766,23.5918579 L63.0942383,64.4524536 L57.7070312,3.04742432 C57.3417969,-1.01580811 51.361084,-1.01580811 50.9958496,3.04742432 L45.6542969,64.4524536 L40.9975586,23.5918579 C40.5410156,19.6199341 34.9711914,19.6199341 34.3776855,23.5918579 L28.8535156,60.0696411 L24.2880859,38.3838501 C23.6032715,35.0054321 18.6726074,35.0054321 17.8051758,38.3838501 L14.4267578,51.5779419 L3.69799805,51.5779419 C1.64355469,51.5779419 0,53.2214966 0,55.2759399 C0,57.2390747 1.64355469,58.8826294 3.69799805,58.8826294 Z"
+                    id="Path"
+                  ></path>
+                </g>
+              </g>
+            </g>
+          </svg>
+          <h2 class="mb2">Speech to Text</h2>
+          <p>
+            Use your own words to dictate ideas, thoughts, or a note to share.
+          </p>
+        </div>
+        <div class="col block block-liveText">
+          <svg
+            width="43px"
+            viewBox="0 0 91 91"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <title>shutter</title>
+            <g
+              id="marketing"
+              stroke="none"
+              stroke-width="1"
+              fill="none"
+              fill-rule="evenodd"
+            >
+              <g
+                id="iPhone-13-Pro-Copy-5"
+                transform="translate(-570.000000, -121.000000)"
+                fill="var(--liveTextForeground)"
+                fill-rule="nonzero"
+              >
+                <g
+                  id="shutter"
+                  transform="translate(615.500000, 166.840942) scale(-1, 1) translate(-615.500000, -166.840942) translate(570.621826, 121.985596)"
+                >
+                  <path
+                    d="M44.8781738,89.7106934 C69.4401855,89.7106934 89.7563477,69.3945312 89.7563477,44.8325195 C89.7563477,20.2705078 69.3945312,0 44.8325195,0 C20.2705078,0 0,20.2705078 0,44.8325195 C0,69.3945312 20.3161621,89.7106934 44.8781738,89.7106934 Z M26.9816895,33.9211426 C26.296875,35.0168457 25.7033691,36.2038574 25.2468262,37.4365234 L16.9377441,23.0097656 C22.6445312,15.6594238 31.2275391,10.6374512 41.0432129,9.58740234 L26.9816895,33.9211426 Z M45.060791,23.7858887 C44.9694824,23.7858887 44.9238281,23.7858887 44.8781738,23.7858887 C43.6911621,23.7858887 42.5498047,23.8771973 41.4541016,24.1054687 L49.7631836,9.72436523 C59.4875488,11.0483398 67.8879395,16.298584 73.4577637,23.831543 L45.060791,23.7858887 Z M9.49609375,44.8325195 C9.49609375,39.7192383 10.5461426,34.8798828 12.463623,30.4970703 L26.1599121,54.2373047 C26.8903809,55.6982422 27.7578125,57.0222168 28.8078613,58.2092285 L12.0527344,58.2092285 C10.4091797,54.1003418 9.49609375,49.5805664 9.49609375,44.8325195 Z M80.3059082,44.8325195 C80.3059082,49.9458008 79.2558594,54.8308105 77.3383789,59.213623 L63.6420898,35.4733887 C62.9116211,34.0124512 62.0441895,32.6428223 60.9941406,31.4101562 L77.7036133,31.4101562 C79.3928223,35.5646973 80.3059082,40.0844727 80.3059082,44.8325195 Z M44.8781738,58.2092285 C39.7192383,58.2092285 35.1081543,55.1047363 32.8710938,50.6762695 L32.8710938,50.6306152 C32.0036621,48.895752 31.5014648,46.8869629 31.5014648,44.8325195 C31.5014648,37.527832 37.5734863,31.4101562 44.8781738,31.4101562 C50.0827637,31.4101562 54.6481934,34.5146484 56.8852539,38.9431152 L56.9309082,39.0800781 C57.7983398,40.8605957 58.2548828,42.7780762 58.2548828,44.8325195 C58.2548828,47.4348145 57.5244141,49.8544922 56.2004395,51.9089355 L56.1547852,51.9545898 C53.7807617,55.6982422 49.5805664,58.2092285 44.8781738,58.2092285 Z M62.7746582,55.7438965 C63.4594727,54.6025391 64.0529785,53.4611816 64.5095215,52.2285156 L72.8642578,66.6552734 C67.1118164,74.0512695 58.4831543,79.0275879 48.6674805,80.0776367 L62.7746582,55.7438965 Z M44.8781738,65.8334961 C46.0651855,65.8334961 47.206543,65.7421875 48.3022461,65.5595703 L39.9931641,79.9406738 C30.2687988,78.6166992 21.8227539,73.3664551 16.298584,65.8334961 L44.6955566,65.8334961 L44.8781738,65.8334961 Z"
+                    id="Shape"
+                  ></path>
+                </g>
+              </g>
+            </g>
+          </svg>
+          <h2 class="mb2">Live Text</h2>
+          <p>Use your camera to quickly pull in your favorite book quotes</p>
+        </div>
+      </div>
+      <div class="flex container-sm mb3">
+        <div class="col block block-about">
+          <div>
+            <svg width="36px" viewBox="0 0 61 71">
+              <path
+                fill="var(--accent)"
+                d="M41.9712883,2.16038651 L7.55979333,28.7896475 C6.13298609,29.8937792 5.87140587,31.9455106 6.97553757,33.3723178 C7.59419654,34.171776 8.54812365,34.6397772 9.55900062,34.6397772 L24.9898296,34.6397772 L12.8633564,55.7259643 C12.4136496,56.5079395 12.6830064,57.506415 13.4649816,57.9561218 C14.0418886,58.2878957 14.7623997,58.2364726 15.2863416,57.8261308 L52.5451961,28.6456708 C53.9655624,27.5332656 54.2152143,25.4800486 53.1028091,24.0596823 C52.4836251,23.2690819 51.5352184,22.8072034 50.5310084,22.8072034 L33.5351208,22.8072034 L44.3805301,4.27716224 C44.8361895,3.49864057 44.5744578,2.49813918 43.7959362,2.04247984 C43.2206432,1.70576784 42.4984619,1.75243438 41.9712883,2.16038651 Z"
+              ></path>
+            </svg>
+          </div>
+          <h2>About the App</h2>
+          <p class="text-secondary mt2">
+            My name is Philip Davis. I created this app because I needed a
+            better way to capture and share book quotes.
+          </p>
+          <p class="text-secondary">
+            The app is free, but if you like it, you can support the development
+            by leaving a tip or sharing it with others.
+          </p>
+          <div class="mt2">
+            <a
+              href="https://paypal.me/philipdavis"
+              class="btn btn-sm btn-secondary"
+              >Leave a tip</a
+            >
+
+            <a
+              href="https://twitter.com/philipcdavis"
+              class="btn btn-sm btn-secondary"
+              >Follow on twitter</a
+            >
+          </div>
+        </div>
+        <div class="col block block-scan">
+          <div class="qrcode mx-auto mb3"></div>
+          <h2 class="text-center mb1">Scan to Download</h2>
+          <p class="text-secondary text-center mt0">
+            Available on newer iPhones
+          </p>
+          <div class="mt2 text-center">
+            <a class="btn btn-lg btn-secondary" href="#">Share</a>
+            <a class="btn btn-lg btn-primary" href="#">Get App</a>
+          </div>
+          <p class="text-secondary text-center mt2 mb0">
+            iPhoneXS (A12) or Later
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
