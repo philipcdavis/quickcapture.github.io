@@ -153,11 +153,11 @@ hr {
 }
 
 .device-container {
-  width: 340px;
 }
 
 .device-container video {
   height: 680px;
+  width: 350px;
   padding: 20px 27px;
   border-radius: 30px;
 }
@@ -444,6 +444,7 @@ hr {
   .device-container video {
     padding: 14px 21px;
     height: 500px;
+    width: 260px;
   }
 
   .bezel {
